@@ -18,7 +18,7 @@
     border-bottom: 0.1rem solid #FFF;
     width: max-content;
     height: auto;
-    margin: 5% auto 2%;
+    margin: 4% auto 2%;
     padding: 0 1%;
     align-items: center;
 }
@@ -29,7 +29,7 @@
 }
 
 .aboutUs__section_content_text{
-    margin: 2% 16%;
+    margin: 0 16%;
     text-align: center;
 }
 
@@ -40,5 +40,5 @@
 .aboutUs__section_content_img img{
     width: 70vw;
     height: auto;
-    margin: 2% 10% 5% 10%;
+    margin: 2% 10%;
 }
