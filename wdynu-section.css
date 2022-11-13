@@ -26,14 +26,14 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin: 2% 10% 0;
-    height: 14vw;    
+    height: 12vw;    
 }
 
 .wdynu__section_warehouse div{
-    width: 50%;
+    width: 45%;
     height: auto;
-    margin: 0 17vw;
-    padding: 5vw 0 0;
+    margin: 0 14vw;
+    padding: 3.7vw 0 0;
 }
 
 .wdynu__section_pest{
@@ -42,14 +42,14 @@
     background-size: contain;
     background-position: right;
     margin: 0 10%;
-    height: 14vw;    
+    height: 12vw;    
 }
 
 .wdynu__section_pest div{
-    width: 50%;
+    width: 45%;
     height: auto;
-    margin: 0 17vw 0 24vw;
-    padding: 5vw 0 0;
+    margin: 0 14vw 0 30vw;
+    padding: 3.7vw 0 0;
 }
 
 .wdynu__section_waste{
@@ -57,12 +57,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 10%;
-    height: 14vw;    
+    height: 12vw;    
 }
 
 .wdynu__section_waste div{
-    width: 50%;
+    width: 45%;
     height: auto;
-    margin: 0 17vw;
-    padding: 6vw 0 0;
+    margin: 0 14vw;
+    padding: 3.7vw 0 0;
 }
