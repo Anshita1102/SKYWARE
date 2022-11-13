@@ -1,0 +1,68 @@
+.wdynu__section{
+    background-color: #37384E;
+    height: max-content;
+    width: auto;
+    padding: 0 0 5% 0;
+}
+
+.wdynu__section_heading h2{
+    font-family: 'Copperplate Gothic Bold';
+    font-weight: 400;
+    line-height: 0.5vw;
+    color: #FFF;
+}
+
+.wdynu__section_heading{
+    border-bottom: 2px solid #FFF;
+    width: max-content;
+    height: auto;
+    margin: 5% auto 2%;
+    padding: 0 1%;
+    align-items: center;
+}
+
+.wdynu__section_warehouse{
+    background: url('./images/Warehouse.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 2% 10% 0;
+    height: 14vw;    
+}
+
+.wdynu__section_warehouse div{
+    width: 50%;
+    height: auto;
+    margin: 0 17vw;
+    padding: 5vw 0 0;
+}
+
+.wdynu__section_pest{
+    background: url('./images/Pest.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 0 10%;
+    height: 14vw;    
+}
+
+.wdynu__section_pest div{
+    width: 50%;
+    height: auto;
+    margin: 0 17vw 0 24vw;
+    padding: 5vw 0 0;
+}
+
+.wdynu__section_waste{
+    background: url('./images/waste.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 10%;
+    height: 14vw;    
+}
+
+.wdynu__section_waste div{
+    width: 50%;
+    height: auto;
+    margin: 0 17vw;
+    padding: 6vw 0 0;
+}
