@@ -2,20 +2,17 @@
     background-color: #00AE8C;
     height: max-content;
     width: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .aboutUs__section_heading h2{
     font-family: 'Copperplate Gothic Bold';
     font-weight: 400;
-    line-height: 1vw;
+    line-height: 0.5vw;
     color: #FFF;
 }
 
 .aboutUs__section_heading{
-    border-bottom: 0.1rem solid #FFF;
+    border-bottom: 2px solid #FFF;
     width: max-content;
     height: auto;
     margin: 5% auto 2%;
