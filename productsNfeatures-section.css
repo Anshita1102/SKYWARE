@@ -55,7 +55,7 @@
     height: 7vw;
     border-radius: 5px;
     margin: 0.5vw;
-    padding: 1% 1vw;
+    padding: 0 1vw;
 }
 
 .productsNfeatures__section_content_block_sub_title{
@@ -65,7 +65,7 @@
 }
 
 .productsNfeatures__section_content_block_sub_text{
-    padding: 1% 2%;
+    padding: 0 2%;
     width: 35vw;
 }
 
