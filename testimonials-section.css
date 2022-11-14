@@ -160,3 +160,69 @@
     width: max-content;
     height: fit-content;
  }
+
+ .testimonials__section_content_mob{
+    display: none;
+ }
+
+ @media only screen and (max-width:504px){
+    .testimonials__section{
+        background: url('./images/testimonial-bg-mob.png');
+        width: 100vw;
+        height: 100vw;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .testimonials__section_heading{
+        margin: 8% auto 5%;
+    }
+
+    .testimonials__section_content_card_mob{
+        display: inline-block;
+        width: max-content;
+        height: fit-content;
+    }
+
+    .testimonials__section_content_card_mob_01{
+        background-color: #00AE8C;
+    }
+
+    .testimonials__section_content{
+        display: none;
+    }
+
+    .testimonials__section_content_card_mob img{
+        width: 20vw;
+        height: 20vw;
+        position: relative;
+        left: 27vw;
+        top: 2vw;
+        box-shadow:0 0.25vw 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    .testimonials__section_content_card_mob p{
+        width: 50vw;
+        text-align: center;
+        padding: 0 10vw;
+    }
+
+    .testimonials__section_content_card_mob{
+        background-color: #FFF;
+        text-align: center;
+        padding: 1vw 1vw 1vw 1vw;
+        box-shadow: 0 0.5vw 10px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    .testimonials__section_content_mob{
+        margin: 0 10% 3%;
+        background-color: rgb(0, 174, 140,0);
+    }
+
+    .slick-slide{
+        margin: 3vw;
+    }
+ }
