@@ -1,6 +1,7 @@
 .testimonials__section{
     background: url('./images/testimonial-bg.png');
     width: auto;
+    height: 60vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,6 +327,7 @@
 
  .testimonials__section_content_mob{
     display: none;
+    visibility:hidden;
  }
 
 
@@ -347,6 +349,7 @@
         display: block;
         width: max-content;
         height: fit-content;
+        visibility: visible;
     }
 
     .testimonials__section_content_card_mob_01{
