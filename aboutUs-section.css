@@ -10,7 +10,7 @@
 .aboutUs__section_heading h2{
     font-family: 'Copperplate Gothic Bold';
     font-weight: 400;
-    line-height: 1vw;
+    line-height: 0.5vw;
     color: #FFF;
 }
 
@@ -41,4 +41,19 @@
     width: 70vw;
     height: auto;
     margin: 2% 10%;
+}
+
+@media only screen and (max-width: 504px){    
+    .aboutUs__section_heading{
+        margin: 5% auto 5%;
+    }
+    
+    .aboutUs__section_content_text{
+        margin: 2% 5% 4%;
+    }
+    
+    .aboutUs__section_content_img img{
+        width: 85vw;
+        margin: 2% 5% 5%;
+    }
 }
