@@ -77,3 +77,27 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 504px){
+    .productsNfeatures__section_heading{
+        margin: 8% auto 5%;
+    }
+
+    .productsNfeatures__section_content_text{
+        margin: 0 5%;
+    }
+
+    .productsNfeatures__section_content_img img{
+        height: 50vw;
+    }
+
+    .productsNfeatures__section_content_block_sub{
+        height: 30vw;
+        margin: 3vw;
+        padding: 2vw;
+    }
+
+    .productsNfeatures__section_content_block_sub_title{
+        padding-top: 5%;
+    }
+}
