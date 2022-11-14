@@ -1,7 +1,14 @@
-$(document).ready(function(){
+$(function(){
     $('.testimonials__section_content_mob').slick({
-        autoplay: false,
-        slidesToShow: 1,
-        slidesToScroll: 1
-  });
+            autoplay: false,
+            responsive:[
+              {
+                breakpoint: 504,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            ]
+  }); 
 });
