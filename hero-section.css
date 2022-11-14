@@ -108,3 +108,52 @@ nav{
     margin: 3% 10% 5% 10%;
 }
 
+@media only screen and (max-width: 504px){
+
+    body{
+        font-size: 2.9vw;
+        line-height: 4vw;
+        font-weight: 300;
+    }
+
+    nav{
+        width: 100vw;
+    }
+
+    .hero__section{
+        background: url("./images/Vision-screen-mob.png");
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .hero__section script{
+        display: none;
+    }
+
+    .hero__section lottie-player{
+        display: none;
+    }
+
+    .hero__section_logo{
+        margin: 50vw 8% 0 8%;
+    }
+    
+    .hero__section_tagline div{
+        font-size: 2.5vw;
+        line-height: 3vw;
+        font-weight: 400;
+        margin: 2% 0 2% 8%;
+        padding: 1.25vw;
+    }
+
+    .hero__section_tagline{
+        width: 70%;
+    }
+
+    .hero__section_content{
+        text-align: center;
+        width: 50%;
+        margin: 3% 8% 2% 8%;
+    }
+}
