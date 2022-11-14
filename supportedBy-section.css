@@ -55,3 +55,34 @@
     height: 100%;
 }
 
+@media only screen and (max-width:504px){
+    .supportedBy__section_content_card p{
+        width: 40vw;
+        text-align: center;
+        padding: 0 16vw;
+    }
+
+    .supportedBy__section_heading{
+        margin: 5% auto 5%;
+    }
+
+    .supportedBy__section_content_card{
+        background-color: #FFF;
+        text-align: center;
+        padding: 1vw 1vw 1vw 1vw;
+    }
+
+    .slick-slide{
+        margin: 3vw;
+    }
+
+    .supportedBy__section_content_card img{
+        width: 20vw;
+        height: 20vw;
+        position: relative;
+        left: 25vw;
+        top: 2vw;
+        box-shadow:0 0.25vw 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+}
