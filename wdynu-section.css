@@ -13,7 +13,7 @@
 }
 
 .wdynu__section_heading{
-    border-bottom: 2px solid #FFF;
+    border-bottom: 0.1rem solid #FFF;
     width: max-content;
     height: auto;
     margin: 4% auto 2%;
@@ -34,6 +34,7 @@
     height: auto;
     margin: 0 14vw;
     padding: 3.7vw 0 0;
+    color:#37384E;
 }
 
 .wdynu__section_pest{
@@ -50,6 +51,7 @@
     height: auto;
     margin: 0 14vw 0 30vw;
     padding: 3.7vw 0 0;
+    color:#FFF
 }
 
 .wdynu__section_waste{
@@ -65,4 +67,57 @@
     height: auto;
     margin: 0 14vw;
     padding: 5vw 0 0;
+    color: #37384E;
+}
+
+@media only screen and (max-width: 504px){
+    .wdynu__section{
+        padding: 5% 0 5% 0;
+    }
+    
+    .wdynu__section_warehouse{
+        background: url('./images/Warehouse-mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 2% 5% 0;
+        height: 34vw;
+        width: 70vw;           
+    }
+    
+    .wdynu__section_warehouse div{
+        width: 60%;
+        margin: 0 0 0 23vw;
+        padding: 7vw 0 0;
+    }
+    
+    .wdynu__section_pest{
+        background: url('./images/Pest-mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        margin: 2% 5% 0 25%;
+        height: 34vw;
+        width: 70vw;           
+    }
+    
+    .wdynu__section_pest div{
+        width: 60%;
+        margin: 0 0 0 7vw;
+        padding: 8vw 0 0;
+    }
+
+    .wdynu__section_waste{
+        background: url('./images/waste-mob.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 2% 5% 0;
+        height: 34vw;
+        width: 70vw;           
+    }
+    
+    .wdynu__section_waste div{
+        width: 60%;
+        margin: 0 0 0 23vw;
+        padding: 8vw 0 0;
+    }
 }
